@@ -1,0 +1,43 @@
+/* INIZIO REGOLE GENERALI */
+.wrapper {
+  width: 70%;
+  margin: auto;
+}
+body ul li {
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body ul li a {
+  text-decoration: none;
+}
+/* FINE REGOLE GENERALI */
+
+/* INIZIO REGOLE HEADER */
+/* Inizio menu di navigazione */
+header nav ul li {
+  display: inline-block;
+}
+header nav .logo {
+  height: 80px;
+}
+header nav img {
+  vertical-align: middle;
+}
+header nav ul li a {
+  text-transform: uppercase;
+  line-height: 80px;
+  color: black;
+  padding: 0 15px;
+  font-weight: bold;
+}
+header nav .col-lg-2 ul li:nth-child(2)>a {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+header nav .col-lg-8 {
+  text-align: right;
+}
+
+/* Fine menu di navigazione */
+/* FINE REGOLE HEADER */

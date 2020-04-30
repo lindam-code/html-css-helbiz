@@ -27,16 +27,18 @@ header nav img {
 header nav ul li a {
   text-transform: uppercase;
   color: black;
-  padding: 0 15px;
+  padding: 0 5px;
   font-weight: bold;
+  font-size: 0.7em;
 }
 header nav .col-lg-2 ul li:nth-child(2)>a {
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
-header nav .col-lg-8 {
+header nav .col-lg-2, .col-lg-7 {
   text-align: right;
 }
+
 
 /* Fine menu di navigazione */
 /* FINE REGOLE HEADER */

@@ -46,7 +46,7 @@
 /* Fine regole generali */
 
 /* Inizio regole schermo piccolo */
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   /* Colonne XS */
   .col-xs-1 {
     width: calc(100%/12);
@@ -127,7 +127,7 @@
 /* Fine regole schermo piccolo */
 
 /* Inizio regole schermo medio */
-@media all and (min-width: 768px) and (max-width: 992px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
   /* Colonne MD */
   .col-md-1 {
     width: calc(100%/12);

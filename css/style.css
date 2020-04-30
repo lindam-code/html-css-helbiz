@@ -18,15 +18,14 @@ body ul li a {
 header nav ul li {
   display: inline-block;
 }
-header nav .logo {
-  height: 80px;
+header nav {
+  line-height: 80px;
 }
 header nav img {
   vertical-align: middle;
 }
 header nav ul li a {
   text-transform: uppercase;
-  line-height: 80px;
   color: black;
   padding: 0 15px;
   font-weight: bold;

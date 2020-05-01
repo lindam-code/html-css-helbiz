@@ -112,6 +112,9 @@ main #products a {
 }
 /* inizio media query */
 @media all and (max-width: 767px) {
+  main #products {
+    font-size: 2em;
+  }
   main #products img {
     transform: scale(0.5);
     margin: -3em 0;
@@ -143,12 +146,5 @@ main #usage .phone [class*="col-"]:last-child {
 main #usage img {
   height: 500px;
 }
-/* MEDIA QUERY */
-@media all and (max-width: 767px) {
-  main #usage .background {
-    display: none;
-  }
-}
-/* FINE MEDIA QUERY */
 /* Fine sectione usage */
 /* FINE REGOLE MAIN */

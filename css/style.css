@@ -255,3 +255,33 @@ main #family .social li a {
 /* Fine sezione family */
 
 /* FINE REGOLE MAIN */
+
+/* INIZIO REGOLE FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+  letter-spacing: 0;
+  line-height: 2em;
+}
+footer a {
+  color: white;
+}
+footer .central-alignment img {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 25px;
+}
+footer ul li:first-child {
+  text-transform: uppercase;
+}
+footer .social li {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 17px;
+}
+footer [class*="col-"] {
+  padding: 25px;
+}
+/* FINE REGOLE FOOTER */

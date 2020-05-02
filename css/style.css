@@ -171,5 +171,60 @@ main #benefit .text a {
 /* fine media query */
 /* Fine sezione benefit */
 
+/* Inizio sezione app */
+main #app .box-centering.iphone {
+  padding-top: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: white;
+}
+main #app .box-centering.iphone .box-background {
+  background-color: #3A4C5D;
+  height: 500px;
+  overflow: hidden;
+}
+main #app .box-centering.city {
+  padding-top: 25px;
+  padding-left: 25px;
+  text-align: center;
+  color: white;
+}
+main #app .box-centering.city .box-background {
+  height: 500px;
+  background-image: url("../img/Cities-1500.jpg");
+  background-size: cover;
+}
+main #app .iphone img {
+  width: 80%;
+  margin-top: 10%;
+}
+main #app p {
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+main #app a {
+  color: white;
+  font-weight: bold;
+}
+/* inizio media query */
+@media all and (max-width: 767px) {
+  main #app {
+    font-size: 1.1em;
+  }
+  main #app img {
+    transform: scale(0.7); 
+  }
+  main #app .box-centering.city {
+    padding-left: 0;
+  }
+  main #app .box-centering.iphone {
+    padding-right: 0;
+  }
+  main #app p {
+    padding: 1.5em 0;
+  }
+}
+/* fine media query */
+/* Fine sezione prodotti */
 
 /* FINE REGOLE MAIN */

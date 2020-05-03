@@ -124,26 +124,39 @@ main #products a {
 /* fine media query */
 /* Fine sezione prodotti */
 
+
 /* Inizio sectione usage */
 main #usage .background {
   height: 500px;
   background-image: url("../img/HelbizBanner.jpg");
   background-size: cover;
-}
-main #usage .phone  {
   text-align: center;
-  margin-top: -300px;
 }
-main #usage .phone [class*="col-"]:first-child,
-main #usage .phone [class*="col-"]:last-child {
-  height: 500px;
-  padding-top: 370px;
-  text-align: left;
-  padding-left: 100px;
+main #usage .background img {
+  height: 650px;
+  margin-top: 100px;
 }
-main #usage img {
-  height: 500px;
+main #usage [class*="col-"] {
+  height: 250px;
+  padding-top: 50px;
+  padding-left: 170px;
+  padding-right: 120px;
 }
+/* inizio media query */
+@media all and (max-width: 991px) {
+  main #usage [class*="col-"] {
+    height: 100px;
+    padding-left: 25px;
+    padding-right: 0px;
+  }
+  main #usage [class*="col-"]:first-child {
+    margin-top: 170px;
+  }
+  main #usage [class*="col-"]:last-child {
+    margin-bottom: 25px;
+  }
+}
+/* fine media query */
 /* Fine sectione usage */
 
 /* Inizio sezione benefit */
@@ -168,7 +181,6 @@ main #benefit .text p {
 main #benefit .text a {
   color: white;
 }
-/* fine media query */
 /* Fine sezione benefit */
 
 /* Inizio sezione app */

@@ -179,7 +179,7 @@ main #app .box-centering.iphone {
   color: white;
 }
 main #app .box-centering.iphone .box-background {
-  background-color: #3A4C5D;
+  background-image: linear-gradient(#3E5265, #252F38);
   height: 500px;
   overflow: hidden;
 }
